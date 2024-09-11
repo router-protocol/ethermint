@@ -62,7 +62,7 @@ func LegacyWrapTxToTypedData(
 		Name:              "Cosmos Web3",
 		Version:           "1.0.0",
 		ChainId:           math.NewHexOrDecimal256(int64(chainID)),
-		VerifyingContract: "cosmos",
+		VerifyingContract: "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC",
 		Salt:              "0",
 	}
 

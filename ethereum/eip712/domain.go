@@ -26,7 +26,7 @@ func createEIP712Domain(chainID uint64) apitypes.TypedDataDomain {
 		Name:              "Cosmos Web3",
 		Version:           "1.0.0",
 		ChainId:           math.NewHexOrDecimal256(int64(chainID)), // #nosec G701
-		VerifyingContract: "cosmos",
+		VerifyingContract: "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC",
 		Salt:              "0",
 	}
 
